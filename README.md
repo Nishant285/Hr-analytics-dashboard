@@ -1,6 +1,6 @@
 # HR People Analytics Dashboard
 
-**Tools:** SQL (SQLite) · Python (pandas) · Interactive HTML/JS dashboard (Chart.js) · 1,470 employees
+**Tools:** SQL (SQLite) · Python (pandas) · Power BI (DAX) · Chart.js · 1,470 employees
 
 **Dashboard:** 
  A Power BI version of this dashboard is also included in powerbi/HR-Analytics-Dashboard.pbix, with DAX measures and a department
