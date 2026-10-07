@@ -93,7 +93,9 @@ a resume screenshot:
    alongside this repo — having both the code-based version (shows SQL/Python
    skill) and the BI-tool version (shows the specific tool) is a stronger
    combination than either alone.
-
+5. A Power BI version of this dashboard is also included in powerbi/HR-Analytics-Dashboard.pbix, with DAX measures and a department
+   slicer, alongside the original interactive web dashboard above.
+   
 ## Project Structure
 
 ```
