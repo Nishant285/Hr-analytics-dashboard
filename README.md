@@ -2,8 +2,10 @@
 
 **Tools:** SQL (SQLite) · Python (pandas) · Interactive HTML/JS dashboard (Chart.js) · 1,470 employees
 
-**Dashboard:** See 'powerbi/HR-Analytics-Dashboard.pbix' in this repo — download and open in any browser (fully self-contained, no server needed)
-
+**Dashboard:** 
+ A Power BI version of this dashboard is also included in powerbi/HR-Analytics-Dashboard.pbix, with DAX measures and a department
+ slicer, alongside the original interactive web dashboard above.
+   
 ## Business Question
 
 People Ops wants one place to see where attrition risk is concentrated, how
@@ -93,8 +95,6 @@ a resume screenshot:
    alongside this repo — having both the code-based version (shows SQL/Python
    skill) and the BI-tool version (shows the specific tool) is a stronger
    combination than either alone.
-5. A Power BI version of this dashboard is also included in powerbi/HR-Analytics-Dashboard.pbix, with DAX measures and a department
-   slicer, alongside the original interactive web dashboard above.
    
 ## Project Structure
 
