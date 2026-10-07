@@ -2,7 +2,7 @@
 
 **Tools:** SQL (SQLite) · Python (pandas) · Interactive HTML/JS dashboard (Chart.js) · 1,470 employees
 
-**Live dashboard:** https://claude.ai/artifact/SXXe6MgzDpqMKhd9X1MoiY
+**Dashboard:** See 'powerbi/HR-Analytics-Dashboard.pbix' in this repo — download and open in any browser (fully self-contained, no server needed)
 
 ## Business Question
 
