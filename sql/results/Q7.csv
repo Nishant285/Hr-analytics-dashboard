@@ -1,0 +1,4 @@
+Department,headcount,attrition_rate_pct,avg_performance_rating,avg_job_satisfaction,avg_monthly_income,satisfaction_rank
+Sales,446,20.63,3.14,2.75,6959.0,1
+Research & Development,961,13.84,3.16,2.73,6281.0,2
+Human Resources,63,19.05,3.14,2.6,6655.0,3
