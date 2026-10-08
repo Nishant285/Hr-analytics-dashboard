@@ -86,7 +86,7 @@ hr_project/
 │   ├── analysis_queries.sql
 │   └── results/
 ├── powerbi/
-│    ├── HR-Analytics-Dashboard screenshot
+│    ├── HR-Analytics-Dashboard screenshot.png
 │    └── HR-Analytics-Dashboard.pbix
 ├── scripts/
 │   ├── 01_clean_data.py
