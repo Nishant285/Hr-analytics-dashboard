@@ -74,25 +74,7 @@ Both show: attrition by department and job role, hiring trend, salary by job lev
 4. **R&D's lower attrition and strong satisfaction scores are worth studying**
    as an internal benchmark — what's working there that Sales/HR could adopt?
 
-## Recreating This in Power BI or Tableau
 
-This project was built as SQL + a code-based dashboard so it runs anywhere
-without a desktop license. To rebuild it as an actual `.pbix` or `.twbx` for
-a resume screenshot:
-
-1. Open Power BI Desktop / Tableau Desktop (or Tableau Public, free).
-2. Import `data/hr_clean.csv` directly, or connect to `hr_analytics.db`
-   (Power BI: SQLite via ODBC driver; Tableau: built-in SQLite connector).
-3. Recreate the visuals 1:1 using the SQL query results in `sql/results/` as
-   your source aggregations, or build the same measures using DAX
-   (Power BI) / calculated fields (Tableau):
-   - Attrition Rate = `DIVIDE([Leavers], [Headcount])`
-   - Use the `Department` field as a slicer/filter, mirroring the dashboard here
-4. Publish to Power BI Service or Tableau Public and link it on your resume
-   alongside this repo — having both the code-based version (shows SQL/Python
-   skill) and the BI-tool version (shows the specific tool) is a stronger
-   combination than either alone.
-   
 ## Project Structure
 
 ```
