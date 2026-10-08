@@ -1,3 +1,4 @@
+<img width="893" height="537" alt="HR-Analytics-Dashboard screenshot" src="https://github.com/user-attachments/assets/8073cfa1-f4da-494f-b534-4930b9bd4b26" />
 # HR People Analytics Dashboard
 
 **Tools:** SQL (SQLite) · Python (pandas) · Power BI (DAX) · Chart.js · 1,470 employees
