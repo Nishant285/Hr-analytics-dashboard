@@ -3,9 +3,7 @@
 
 **Tools:** SQL (SQLite) · Python (pandas) · Power BI (DAX) · Chart.js · 1,470 employees
 
-**Dashboard:** 
- A Power BI version of this dashboard is also included in powerbi/HR-Analytics-Dashboard.pbix, with DAX measures and a department
- slicer, alongside the original interactive web dashboard above.
+**Dashboards:** Power BI version (`powerbi/HR-Analytics-Dashboard.pbix`, screenshot above) and an interactive Chart.js web version (`hr_dashboard.html`).
    
 ## Business Question
 
@@ -55,15 +53,13 @@ healthy, not flat.
 years in this snapshot (derived from tenure, so read directionally rather
 than as exact annual hiring counts).
 
-## 3. Interactive Dashboard
+## 3. Dashboards
 
-Built as a self-contained HTML/JS page (`hr_dashboard.html`) using Chart.js —
-published live at the link above. Includes:
-- KPI strip (headcount, attrition rate, avg. income, avg. satisfaction)
-- **Department filter** that live-updates the KPIs and the job-role attrition
-  breakdown — the main interactive element
-- Attrition by department, attrition by job role, hiring trend, salary by
-  job level & gender, overtime-vs-attrition callout, department scorecard
+**Power BI** (`powerbi/HR-Analytics-Dashboard.pbix`): 7 DAX measures (headcount, attrition rate, overtime vs. non-overtime attrition via `CALCULATE`, ...) and a Department slicer that updates every KPI and visual.
+
+**Chart.js web version** (`hr_dashboard.html`): department filter that live-updates the KPIs and job-role attrition chart.
+
+Both show: attrition by department and job role, hiring trend, salary by job level and gender, overtime vs. attrition, and a department scorecard.
 
 ## 4. Recommendations
 
@@ -107,6 +103,9 @@ hr_project/
 ├── sql/
 │   ├── analysis_queries.sql
 │   └── results/
+├── powerbi/
+│    ├── HR-Analytics-Dashboard screenshot
+│    └── HR-Analytics-Dashboard.pbix
 ├── scripts/
 │   ├── 01_clean_data.py
 │   ├── 02_load_to_sql.py
@@ -114,6 +113,7 @@ hr_project/
 │   └── 05_prep_dashboard_data.py
 ├── hr_analytics.db
 ├── hr_dashboard.html
+├── hr_dashboard_data.json
 └── README.md
 ```
 
