@@ -31,7 +31,7 @@ questions across the four areas requested.
 ### Key findings
 
 **Attrition** — Sales has the highest department attrition rate (20.6%),
-Human Resources second (19.1%), R&D lowest (13.8%). At the job-role level,
+Human Resources second (19.0%), R&D lowest (13.8%). At the job-role level,
 **Sales Representatives have by far the highest individual attrition rate
 at 39.8%**, and alone account for 14% of everyone who left the company.
 
